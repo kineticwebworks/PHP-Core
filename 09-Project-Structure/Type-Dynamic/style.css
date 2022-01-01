@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  line-height: 1.5em;
+}
+
+body {
+  background-color: var(--Bg-color-1);
+  min-height: 100vh !important;
+}
+
+:root {
+  --font-family: "Open Sans", sans-serif;
+  --Bg-color-Primary: #132c33;
+  --Bg-color-Secoundry: #126e82;
+  --Bg-color-1: #51c4d3;
+  --Bg-color-2: #d8e3e7;
+}
+
+h2 {
+  text-transform: capitalize;
+  color: var(--Bg-color-Primary) !important;
+  border-bottom: 2px solid var(--Bg-color-Primary);
+}
+
+h2 span {
+  margin-left: 20px;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+p {
+  color: var(--Bg-color-Primary) !important;
+  font-weight: 300 !important;
+}
+
+.my-nav {
+  background-color: var(--Bg-color-Primary) !important;
+}
+.nav-item {
+  margin-left: 20px;
+}
+.nav-item a {
+  color: var(--Bg-color-2) !important;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.nav-item a:hover {
+  color: var(--Bg-color-1) !important;
+}
+.navbar-brand {
+  color: var(--Bg-color-1) !important;
+  text-transform: uppercase;
+  font-size: 20px !important;
+}
+
+section{
+    min-height: 76vh;
+}
+.section-left {
+  min-height: 70vh;
+  background-color: var(--Bg-color-2);
+  border-right: 5px solid var(--Bg-color-1);
+}
+.section-right {
+  min-height: 70vh;
+  border-left: 5px solid var(--Bg-color-1);
+  background-image: url(https://images.unsplash.com/photo-1623039405147-547794f92e9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=526&q=80);
+  background-size: cover;
+  background-position: center;
+}
+
+footer {
+    background-color: var(--Bg-color-Primary);
+}
+
+.copyright{
+    color: var(--Bg-color-2) !important;
+    padding: 15px;
+    text-align: center;
+    margin: 0px !important;
+}
+
+.stories-right{
+    background-image: url(https://images.unsplash.com/photo-1620680779930-e74c15c8f7a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80);
+    background-size: cover;
+    background-position: center;
+}
